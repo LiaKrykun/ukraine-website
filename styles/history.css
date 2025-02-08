@@ -1,0 +1,54 @@
+/* History section */
+
+#history{
+    background: 
+    linear-gradient(
+        #000f2ecc,
+        #000f2ecc
+    ),url(/images/vyshyvka.jpg);
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover;
+    padding: 13vh 0;
+}
+
+
+
+.history{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#history-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 7vw;
+    margin: 0 auto;
+    gap: 5rem;
+    justify-content: space-between;
+}
+
+.history-img{
+    max-width: 80vw;
+}
+
+@media (min-width:48em){
+    #history-wrap{
+        width: 70vw;
+    }
+    .history{
+        gap: 2rem; 
+        align-items:center;
+        flex-direction: row;
+    }
+    .history-second{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .history-img{
+        max-width: 25vw;
+    }
+}

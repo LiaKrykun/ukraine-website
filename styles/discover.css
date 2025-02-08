@@ -1,0 +1,74 @@
+/* Discover section */
+#discover{
+    padding: 13vh 0 10vh;
+    background: linear-gradient(
+        #000f2ecc,
+        #000f2ecc
+    ),url(/images/prapor.jpg);
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover;
+}
+.gallery-wrap{
+    min-width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    justify-content: space-evenly;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+}
+.card-gallery{
+    width: 100%;
+    border-radius: 3rem;
+    height: 50vh;
+    width: 80vw;
+    overflow: hidden;
+}
+.card-img{
+    position: relative;
+    height: 70vh;
+    object-fit: cover;
+}
+@media (min-width:48em) {
+    #discover{
+        height: 85vh;}
+
+    .gallery-wrap{
+        min-width: 40vw;
+        max-width: 60vw;
+    }
+
+    .gallery{
+        flex-direction: row;
+        justify-content: center center;
+        gap: 1rem;
+        max-width: 50vw;
+        margin: 0 auto;
+    }
+    .card-gallery{
+    position: relative;
+    left: 0;
+    width: 50vw;
+    border-radius: 3rem;
+    height: 50vh;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 5 12px rgba(0, 0, 0, .3);
+    flex: .15;
+}
+    .card-gallery:hover{
+    flex: 1 1 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+}

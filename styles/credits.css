@@ -1,0 +1,68 @@
+#credits{
+    padding: 13vh 1vh 5vw;
+    margin: 0 auto;
+}
+
+
+.title-table{
+    font-style: italic;
+    color: rgb(252, 248, 24);
+    border: none;
+}
+
+table, th{ 
+    font-size: 1rem;
+}
+
+form{
+    padding: 2vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+#subs-btn{
+    padding: 1rem;
+    width: 10rem;
+    background-color: rgb(86, 2, 2);
+    color: white;
+}
+@media (min-width:48em) {
+    #credits{
+        width: 60vw;
+        margin: 0 auto;
+        background-color: #35353564;
+        padding: 13vh 3vh 5vw;
+    }
+    table{
+    width: 50vw;
+    margin: 0 auto;
+    }
+
+    table, th{ 
+        border-bottom: 1px solid white;
+        border-collapse: collapse;
+        font-size: 1.3rem;
+    }
+    #subs-btn{
+        width: 20rem;
+    }
+    
+    th a:hover{
+        color: rgb(0, 188, 0);
+        cursor: pointer;
+    }
+
+    #subs-btn{
+        transition: all .5s ease;
+    }
+
+    #subs-btn:hover{
+        width: 22rem;
+        padding: 1.2rem;
+        cursor: pointer;
+    }
+}
+
+

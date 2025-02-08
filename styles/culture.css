@@ -1,0 +1,69 @@
+/* Culture section */
+#culture{
+    background-color: #000c23;
+    padding: 6rem 0;
+    line-height: 2.5rem;
+}
+
+table{
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.table-text{
+    padding: 1rem; 
+    line-height: clamp(2rem, 3vw, 3rem);
+    font-size: clamp(.5rem, 1.3vw, 1rem);
+    
+}
+.cult-cards {
+    display: flex;
+    flex-direction: column;
+    background-color: #01297a;
+    transition: all .8s ease;
+    max-width: 30rem;
+    width: 80vw;
+}
+
+th img{
+    object-fit: cover;
+    object-position: center center;
+    height: 25vh;
+    width: 100%;
+}
+tr{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+    }
+@media (min-width:48em){
+    tr{
+        display: block;
+    }
+    th{
+        margin: 0 1vw;
+    }
+    .cult-cards{
+        width: 25vw;
+        min-height: 30rem;
+        max-height: 40rem;
+        display: inline-block;
+        filter: grayscale(90%);
+    }
+
+    .cult-cards:hover{
+        filter: none;
+        -webkit-filter: none;
+    }
+}
+
+@media (min-width:125em){
+    main{
+        width: 100vw;
+    }
+    .cult-cards {
+        max-height: 70rem;
+    }
+}
