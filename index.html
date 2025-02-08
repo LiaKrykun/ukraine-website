@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ukraine website</title>
+    <meta name="description" content="This website explores Ukraine's nature, traditions, and uniqueness. Discover its history, cuisine, and folklore, offering deep insights into its heart and soul.">
+    
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="Ukraine">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poiret+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p id="logo"><a href="#home"><img src="images/countrysite-logo.svg" alt="Website logo - letter U"></a></p>
+        <nav>
+            <button id="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle">
+                <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path fill="none" d="M0 0h24v24H0z"/>
+                        <path d="M3 4h18v2H3V4zm0 15h18v2H3v-2zm0-5h18v2H3v-2zm0-5h18v2H3V9z"/>
+                    </g>
+                </svg>
+            </button>
+
+            <ul id="navbar">
+                <li><a href="history.html">History</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="credits.html">Credits</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <section id="home-text">
+                <h1>Ukraine</h1>
+                <div>
+                    <q>Ukraine starts with you</q>
+                    <p>Viacheslav Chornovil</p>
+                </div>
+            </section>
+            <video autoplay muted loop>
+                <source src="media/main-video.mp4" type="video/mp4">
+                
+            </video>
+        </section>
+
+        <section id="about">
+            <div id="about-div">
+                <p>Ukraine is a large Eastern European country known for its rich history, diverse culture, and strong national identity. It has vast plains, the Carpathian Mountains, and a Black Sea coastline. Kyiv, its capital, is a historic and cultural center. Since 2022, Ukraine has bravely resisted Russia&#39;s full-scale invasion.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+            <h2 class="credits-link"><a href="credits.html">Credits</a></h2>
+        <ul id="socials">
+            <li>
+                <p><a href="https://www.facebook.com/">Facebook</a></p>
+            </li>
+            <li>
+                <p><a href="https://www.instagram.com">Instagram</a></p>
+            </li>
+            <li>
+                <p><a href="https://www.youtube.com">Youtube</a></p>
+            </li>
+        </ul>
+        <p id="copyrights">&copy; Lia Krykun</p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
