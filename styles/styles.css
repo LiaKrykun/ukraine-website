@@ -25,22 +25,30 @@
   }
 }
 
+#home h1{
+  font-size: clamp(2rem, 4vw, 5rem);
+}
+
 #home-text{
-	color: white;
-	border-radius: 100%;
-	position: absolute;
-	padding:  1.5rem 3rem;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  color: white;
+  border-radius:25px ;
+  position: absolute;
+  padding:  1rem 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   top: 30vh;
   left: 0;
   right: 0;
   z-index: 1;
-  backdrop-filter: blur(5px);
-	width: fit-content;
-	margin: 0 auto;
+  background-color: rgba(2, 2, 61, 0.775);
+  width: fit-content;
+  margin: 0 auto;
+  -webkit-border-radius:25px ;
+  -moz-border-radius:25px ;
+  -ms-border-radius:25px ;
+  -o-border-radius:25px ;
 }
 
 #about{
@@ -59,6 +67,11 @@
   margin: 0 auto;
   padding: 4rem 2rem;
   text-align: center;
+}
+
+h3{
+  background-color: #000f2eec;
+  padding: 1vw;
 }
 @media(min-width:48em){
   #about-div{

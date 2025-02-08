@@ -35,8 +35,9 @@ li{
 }
 
 h1{
-    font-size: clamp(2rem, 4vw, 5rem);
+    font-size: clamp(2rem, 4vw, 3rem);
     line-height: 0;
+    text-align: center;
 }
 
 h2{
@@ -44,15 +45,15 @@ h2{
     text-align: center;
 }
 
-p{
+p, h3, h4{
     font-family: "Poiret One", serif;
     font-size: clamp(1rem, 2vw, 1.8rem);
 }
-blockquote p::before {
+blockquote h2::before {
 content: '\201C';
 }
 
-blockquote p::after {
+blockquote h2::after {
 content: '\201D';
 }
 header{
