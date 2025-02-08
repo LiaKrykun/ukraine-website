@@ -125,7 +125,8 @@ header{
         transition: all .5s ease;
     }
     
-    #navbar li a:hover{
+    #navbar li a:hover,
+    #navbar li a:focus{
         background-color: #ffffff;
         color: #000c23;
         border-radius: 25px;
@@ -135,7 +136,8 @@ header{
         display: none;
     }
 
-    .credits-link a:hover{
+    .credits-link a:hover,
+    .credits-link a:focus{
         color: rgb(0, 188, 0);
         cursor: pointer;
     }
@@ -145,6 +147,7 @@ header{
     }
     
     #socials a:hover{
+    #socials a:focus{
         background-color: #ffffff;
         color: #000c23;
         border-radius: 25px;
@@ -180,10 +183,13 @@ footer{
 
 
 @media (min-width: 125em){
+    
     header{
         padding: 0 20vw;
     }
-    main, footer{
+
+    main, 
+    footer{
         display: flex;
         justify-content: center;
         align-items: center;
