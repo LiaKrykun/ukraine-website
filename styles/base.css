@@ -48,7 +48,13 @@ p{
     font-family: "Poiret One", serif;
     font-size: clamp(1rem, 2vw, 1.8rem);
 }
+blockquote p::before {
+content: '\201C';
+}
 
+blockquote p::after {
+content: '\201D';
+}
 header{
     display: flex;
     background-color: #000c23;
